@@ -1,0 +1,317 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* .wd{
+    overflow: auto;
+} */
+.od{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-beautiful-sandy-beach-on-the-ocean-on-3d-python-3ds-max-image_2955175.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 641px;
+}
+.nav{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+.title{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1%;
+}
+.title p{
+    font-size: 15px;
+    color: white;
+}
+.navbutton{
+    height: 100%;
+    width: 30%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+}
+.navbutton a{
+    font-size: 20px;
+    background-color: unset;
+    border: none;
+    color: white;
+}
+.navbutton button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.odin{
+    height: 50%;
+    width: 50%;
+    margin-top: 7%;
+    padding: 5%;
+}
+.odin p{
+    color: black;
+    width: 75%;
+    height: 15%;
+    padding-top: 1%;
+    padding-left: 1%;
+    border-radius: 5px;
+}
+.odin h1{
+    color: white;
+}
+.services{
+    height: 400px;
+    background-color: white;
+}
+.services h1{
+    text-align: center;
+    margin-top: 1%;
+}
+.head{
+    height: 90%;
+    display: flex;
+    padding: 3%;
+    gap: 5%;
+}
+.box{
+    height: 90%;
+    width: 30%;
+    background-color: green;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.box p{
+    padding-top: 4%;
+    font-size: 20px;
+}
+i{
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+.destinations{
+    height: 400px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+.line1{
+    height: 90%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    gap: 5%;
+    color: green;
+}   
+.div{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+}
+.img{
+    width: 100%;
+    height: 80%;
+}
+.destinations h1 {
+    color: white;
+}
+.destinations1{
+    background-color: white;
+}
+.div4, .div5, .div6{
+    background-color: green;
+    color: white;
+}
+.destinations1 h1{
+    color: black;
+}
+.Transpots1{
+    height: 400px;
+    width: 100%;
+    background-color: green;
+    padding: 2%;
+    color: green;
+}
+
+.img1{
+    height: 90%;
+    width: 100%;
+}
+.Transpots1 h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.box5{
+    height: 90%;
+    width: 30%;
+}
+.aboutus{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 2%;
+    padding: 1%;
+}
+.planes{
+    height: 700px;
+    width: 100%;
+    background-color: green;
+    padding: 2%;
+}
+.planein1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    text-align: center;
+    color: green;
+}
+.aboutusin1{
+    height: 100%;
+    width: 49%;
+    background-color: green;
+}
+.img3{
+    height: 100%;
+    width: 100%;
+}
+.aboutusin2{
+    padding: 1%;
+    color: white;
+}
+.aboutusin2 p{
+    margin-top: 2%;
+    font-size: 30px;
+}
+.aboutusin2 h1{
+    font-size: 40px;
+}
+.planes1{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+}
+.img5{
+    height: 80%;
+    width: 100%;
+}
+.planein2{
+    padding-top: 2%;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: green;
+}
+.contect{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
+
+@media only screen and (max-width:1200px) {
+    .navbutton button{
+        font-size: 17px;
+    }
+}  
+
+@media only screen and (max-width:1004px) {
+    .aboutusin2 h1{
+        font-size: 30px;
+    }
+    .aboutusin2 p{
+        font-size: 25px;
+    }
+}  
+
+
+@media only screen and (max-width:800px) {
+    .title p{
+        font-size: 10px;
+    }
+    .navbutton button{
+        font-size: 12px;
+    }
+    .destinations{
+        height: 1700px;
+    }
+    .line1{
+        flex-direction: column;
+    }
+    .div{
+        width: 100%;
+    }
+    .Transpots1{
+        flex-direction: column;
+        height: 1600px;
+    }
+    .aboutus{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .aboutusin1{
+        width: 100%;
+    }
+    .aboutusin2 h1{
+        font-size: 40px;
+    }
+    .aboutusin2 p{
+        font-size: 30px;
+    }
+    .planes{
+        height: 4000px;
+    }
+    .planein1{
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .planes1{
+        width: 100%;
+    }
+    .planein2{
+        gap: 5%;
+        flex-direction: column;
+        font-size: 30px;
+
+    }
+}  
+
+@media only screen and (max-width:500px) {
+    
+    .title p{
+        font-size: 5px;
+    }
+    .navbutton button{
+        font-size: 10px;
+    }
+    .navbutton{
+        width: 65%;
+    }
+    .services{
+        height: 700px;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+}  
